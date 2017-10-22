@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DED06DF106482F3F10E18BC /* Pods_Virtual_WalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF4C32593D8D9490B94EFDA /* Pods_Virtual_WalletUITests.framework */; };
+		9084ABF11F9D36B200636D0E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9084ABF01F9D36B200636D0E /* CustomButton.swift */; };
 		90B3A6DC1F9BC970005B7862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */; };
 		90B3A6DE1F9BC970005B7862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A6DD1F9BC970005B7862 /* ViewController.swift */; };
 		90B3A6E11F9BC970005B7862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A6DF1F9BC970005B7862 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		90B3A6E91F9BC970005B7862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B3A6E71F9BC970005B7862 /* LaunchScreen.storyboard */; };
 		90B3A6F41F9BC970005B7862 /* Virtual_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A6F31F9BC970005B7862 /* Virtual_WalletTests.swift */; };
 		90B3A6FF1F9BC971005B7862 /* Virtual_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B3A6FE1F9BC971005B7862 /* Virtual_WalletUITests.swift */; };
+		CA764E73BE4A187A4DE1A0C8 /* Pods_Virtual_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F51F6B350DB0A943900E0B2 /* Pods_Virtual_Wallet.framework */; };
+		FC9176ABCC22F94131AC4151 /* Pods_Virtual_WalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC189EFBCE09F899F67A8A3B /* Pods_Virtual_WalletTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F51F6B350DB0A943900E0B2 /* Pods_Virtual_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Virtual_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E93CF958902F4B99BEAF076 /* Pods-Virtual WalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual WalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual WalletUITests/Pods-Virtual WalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82BD09894D595622016E77CD /* Pods-Virtual Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual Wallet/Pods-Virtual Wallet.release.xcconfig"; sourceTree = "<group>"; };
+		9084ABF01F9D36B200636D0E /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		90B3A6D81F9BC970005B7862 /* Virtual Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B3A6DD1F9BC970005B7862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		90B3A6FA1F9BC970005B7862 /* Virtual WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B3A6FE1F9BC971005B7862 /* Virtual_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_WalletUITests.swift; sourceTree = "<group>"; };
 		90B3A7001F9BC971005B7862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF5A5C1CC7E8CCBBC51EF53 /* Pods-Virtual Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual Wallet/Pods-Virtual Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+		A7CCED1252DA25DE3BC47C51 /* Pods-Virtual WalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual WalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual WalletUITests/Pods-Virtual WalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9142CB73BBA14E79F3D5885 /* Pods-Virtual WalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual WalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual WalletTests/Pods-Virtual WalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF4C32593D8D9490B94EFDA /* Pods_Virtual_WalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Virtual_WalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10B437C837F09EB4DB27CEE /* Pods-Virtual WalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virtual WalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Virtual WalletTests/Pods-Virtual WalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC189EFBCE09F899F67A8A3B /* Pods_Virtual_WalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Virtual_WalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA764E73BE4A187A4DE1A0C8 /* Pods_Virtual_Wallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9176ABCC22F94131AC4151 /* Pods_Virtual_WalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DED06DF106482F3F10E18BC /* Pods_Virtual_WalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01809D23D1E3D952A7F0FA1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF5A5C1CC7E8CCBBC51EF53 /* Pods-Virtual Wallet.debug.xcconfig */,
+				82BD09894D595622016E77CD /* Pods-Virtual Wallet.release.xcconfig */,
+				B9142CB73BBA14E79F3D5885 /* Pods-Virtual WalletTests.debug.xcconfig */,
+				E10B437C837F09EB4DB27CEE /* Pods-Virtual WalletTests.release.xcconfig */,
+				A7CCED1252DA25DE3BC47C51 /* Pods-Virtual WalletUITests.debug.xcconfig */,
+				3E93CF958902F4B99BEAF076 /* Pods-Virtual WalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32FFB2C220EB868DF0141CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F51F6B350DB0A943900E0B2 /* Pods_Virtual_Wallet.framework */,
+				FC189EFBCE09F899F67A8A3B /* Pods_Virtual_WalletTests.framework */,
+				BEF4C32593D8D9490B94EFDA /* Pods_Virtual_WalletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90B3A6CF1F9BC970005B7862 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				90B3A6F21F9BC970005B7862 /* Virtual WalletTests */,
 				90B3A6FD1F9BC971005B7862 /* Virtual WalletUITests */,
 				90B3A6D91F9BC970005B7862 /* Products */,
+				01809D23D1E3D952A7F0FA1D /* Pods */,
+				32FFB2C220EB868DF0141CDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +141,12 @@
 		90B3A6DA1F9BC970005B7862 /* Virtual Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */,
-				90B3A6DD1F9BC970005B7862 /* ViewController.swift */,
-				90B3A6DF1F9BC970005B7862 /* Main.storyboard */,
+				90B3A70C1F9BC9B5005B7862 /* UI */,
 				90B3A6E51F9BC970005B7862 /* Assets.xcassets */,
-				90B3A6E71F9BC970005B7862 /* LaunchScreen.storyboard */,
+				90B3A70D1F9BC9BC005B7862 /* Controllers */,
+				90B3A70E1F9BC9C6005B7862 /* Model */,
+				90B3A70F1F9BC9CC005B7862 /* Support Files */,
 				90B3A6EA1F9BC970005B7862 /* Info.plist */,
-				90B3A6E21F9BC970005B7862 /* Virtual_Wallet.xcdatamodeld */,
 			);
 			path = "Virtual Wallet";
 			sourceTree = "<group>";
@@ -128,6 +169,40 @@
 			path = "Virtual WalletUITests";
 			sourceTree = "<group>";
 		};
+		90B3A70C1F9BC9B5005B7862 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90B3A6DF1F9BC970005B7862 /* Main.storyboard */,
+				90B3A6E71F9BC970005B7862 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		90B3A70D1F9BC9BC005B7862 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90B3A6DD1F9BC970005B7862 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		90B3A70E1F9BC9C6005B7862 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9084ABF01F9D36B200636D0E /* CustomButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90B3A70F1F9BC9CC005B7862 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */,
+				90B3A6E21F9BC970005B7862 /* Virtual_Wallet.xcdatamodeld */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90B3A7031F9BC971005B7862 /* Build configuration list for PBXNativeTarget "Virtual Wallet" */;
 			buildPhases = (
+				E10CF92B90362875B8400638 /* [CP] Check Pods Manifest.lock */,
 				90B3A6D41F9BC970005B7862 /* Sources */,
 				90B3A6D51F9BC970005B7862 /* Frameworks */,
 				90B3A6D61F9BC970005B7862 /* Resources */,
+				1CCC26EBF2CD36BF2493B248 /* [CP] Embed Pods Frameworks */,
+				F4838B5C321DF65EE9241BB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90B3A7061F9BC971005B7862 /* Build configuration list for PBXNativeTarget "Virtual WalletTests" */;
 			buildPhases = (
+				76243D8B44D78B16FF3FF993 /* [CP] Check Pods Manifest.lock */,
 				90B3A6EB1F9BC970005B7862 /* Sources */,
 				90B3A6EC1F9BC970005B7862 /* Frameworks */,
 				90B3A6ED1F9BC970005B7862 /* Resources */,
+				77AB324F05223C1B95985B94 /* [CP] Embed Pods Frameworks */,
+				8B2481AEEA63983211515626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90B3A7091F9BC971005B7862 /* Build configuration list for PBXNativeTarget "Virtual WalletUITests" */;
 			buildPhases = (
+				21D86201CFF2BBE6171DFAC9 /* [CP] Check Pods Manifest.lock */,
 				90B3A6F61F9BC970005B7862 /* Sources */,
 				90B3A6F71F9BC970005B7862 /* Frameworks */,
 				90B3A6F81F9BC970005B7862 /* Resources */,
+				341D1285DCCF28B8180F5190 /* [CP] Embed Pods Frameworks */,
+				3E0274909DA3AF68D5AEC3ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +341,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CCC26EBF2CD36BF2493B248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual Wallet/Pods-Virtual Wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D86201CFF2BBE6171DFAC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		341D1285DCCF28B8180F5190 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual WalletUITests/Pods-Virtual WalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0274909DA3AF68D5AEC3ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual WalletUITests/Pods-Virtual WalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76243D8B44D78B16FF3FF993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77AB324F05223C1B95985B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual WalletTests/Pods-Virtual WalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2481AEEA63983211515626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual WalletTests/Pods-Virtual WalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10CF92B90362875B8400638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4838B5C321DF65EE9241BB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Virtual Wallet/Pods-Virtual Wallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90B3A6D41F9BC970005B7862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9084ABF11F9D36B200636D0E /* CustomButton.swift in Sources */,
 				90B3A6DE1F9BC970005B7862 /* ViewController.swift in Sources */,
 				90B3A6DC1F9BC970005B7862 /* AppDelegate.swift in Sources */,
 				90B3A6E41F9BC970005B7862 /* Virtual_Wallet.xcdatamodeld in Sources */,
@@ -428,6 +651,7 @@
 		};
 		90B3A7041F9BC971005B7862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF5A5C1CC7E8CCBBC51EF53 /* Pods-Virtual Wallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,12 +661,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.losAngelesBoy.Virtual-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		90B3A7051F9BC971005B7862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BD09894D595622016E77CD /* Pods-Virtual Wallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,12 +677,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.losAngelesBoy.Virtual-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		90B3A7071F9BC971005B7862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9142CB73BBA14E79F3D5885 /* Pods-Virtual WalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +701,7 @@
 		};
 		90B3A7081F9BC971005B7862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10B437C837F09EB4DB27CEE /* Pods-Virtual WalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +719,7 @@
 		};
 		90B3A70A1F9BC971005B7862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CCED1252DA25DE3BC47C51 /* Pods-Virtual WalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +736,7 @@
 		};
 		90B3A70B1F9BC971005B7862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E93CF958902F4B99BEAF076 /* Pods-Virtual WalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
