@@ -116,6 +116,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		904643151F9FA1F6003D485A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90B3A6DF1F9BC970005B7862 /* Main.storyboard */,
+				90B3A6E71F9BC970005B7862 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		904643161F9FA1FB003D485A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		904643171F9FA1FE003D485A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9084ABF01F9D36B200636D0E /* CustomButton.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9046431A1F9FA2B1003D485A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */,
+				90B3A6EA1F9BC970005B7862 /* Info.plist */,
+				90B3A6E21F9BC970005B7862 /* Virtual_Wallet.xcdatamodeld */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		90B3A6CF1F9BC970005B7862 = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +175,12 @@
 		90B3A6DA1F9BC970005B7862 /* Virtual Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				90B3A70C1F9BC9B5005B7862 /* UI */,
+				904643151F9FA1F6003D485A /* UI */,
 				90B3A6E51F9BC970005B7862 /* Assets.xcassets */,
-				90B3A70D1F9BC9BC005B7862 /* Controllers */,
-				90B3A70E1F9BC9C6005B7862 /* Model */,
-				90B3A70F1F9BC9CC005B7862 /* Support Files */,
-				90B3A6EA1F9BC970005B7862 /* Info.plist */,
+				904643161F9FA1FB003D485A /* Controllers */,
+				90B3A6DD1F9BC970005B7862 /* ViewController.swift */,
+				904643171F9FA1FE003D485A /* Model */,
+				9046431A1F9FA2B1003D485A /* Support Files */,
 			);
 			path = "Virtual Wallet";
 			sourceTree = "<group>";
@@ -167,40 +201,6 @@
 				90B3A7001F9BC971005B7862 /* Info.plist */,
 			);
 			path = "Virtual WalletUITests";
-			sourceTree = "<group>";
-		};
-		90B3A70C1F9BC9B5005B7862 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				90B3A6DF1F9BC970005B7862 /* Main.storyboard */,
-				90B3A6E71F9BC970005B7862 /* LaunchScreen.storyboard */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		90B3A70D1F9BC9BC005B7862 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				90B3A6DD1F9BC970005B7862 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		90B3A70E1F9BC9C6005B7862 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9084ABF01F9D36B200636D0E /* CustomButton.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		90B3A70F1F9BC9CC005B7862 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				90B3A6DB1F9BC970005B7862 /* AppDelegate.swift */,
-				90B3A6E21F9BC970005B7862 /* Virtual_Wallet.xcdatamodeld */,
-			);
-			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
